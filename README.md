@@ -82,7 +82,7 @@ Get Meaning Importance in Long Text
 3. 「--model」に展開したモデルを指定して実行します。
 
    ```sh
-   $ python text2importance.py --model checkpoint/text2importance-ja_base --context "日経平均は百円高。後場は下落。ダウに連れ高。"
+   $ python text2importance.py --model text2importance-ja_base --context "日経平均は百円高。後場は下落。ダウに連れ高。"
    0.5335199236869812      日経平均は百円高
    0.2679694890975952      後場は下落
    0.2537710964679718      ダウに連れ高
