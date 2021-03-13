@@ -23,7 +23,7 @@ Get Meaning Importance in Long Text
 
 ### デモンストレーション
 
-[Sakamoto's AI lab](http://ailab.nama.ne.jp/#news2title)
+[Sakamoto's AI lab](http://ailab.nama.ne.jp/#text2importance)
 
 
 
