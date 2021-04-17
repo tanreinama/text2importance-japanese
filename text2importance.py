@@ -239,6 +239,7 @@ def main():
                 _input_ids.append(0)
                 _input_masks.append(0)
                 _segments.append(0)
+            _lm_positions = [p for p in _lm_positions if p < max_seq_length]
             _lm_positions = _lm_positions[:max_seq_length]
             _lm_lm_weights = [1] * len(_lm_positions)
             while len(_lm_positions) < max_seq_length:
